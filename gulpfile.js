@@ -112,10 +112,10 @@ gulp.task('build', [
   'blockly_browser',
   'i18n',
   'js',
-  'php',
-  'dart',
-  'python',
-  'lua',
+  //'php',
+  //'dart',
+  //'python',
+  //'lua',
 ]);
 
 

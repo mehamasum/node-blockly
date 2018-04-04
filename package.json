@@ -1,7 +1,7 @@
 {
   "name": "node-blockly",
-  "version": "1.0.33",
-  "description": "Blockly for Node.js and Browser as CommonJS module",
+  "version": "1.0.34",
+  "description": "PXT Blockly for Node.js and Browser",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -23,18 +23,18 @@
     "mocha": "^4.0.1"
   },
   "scripts": {
-    "blockly:upgrade": "git submodule init && git submodule update --recursive --remote",
+    "fetch": "git submodule init && git submodule update --recursive --remote",
     "prepublish": "rm -rf lib && mkdir lib && gulp build",
     "test": "mocha test/*_test.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mo4islona/node-blockly"
+    "url": "https://github.com/mehamasum/node-blockly"
   },
-  "author": "Eugene Formanenko <mo4islona@gmail.com>",
-  "license": "ISC",
+  "author": "Meha Masum <mehamasum@gmail.com>",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mo4islona/node-blockly/issues"
+    "url": "https://github.com/mehamasum/node-blockly/issues"
   },
-  "homepage": "https://github.com/mo4islona/node-blockly"
+  "homepage": "https://github.com/mehamasum/node-blockly"
 }

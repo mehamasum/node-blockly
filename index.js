@@ -3,9 +3,9 @@
 var Blockly = require('./_blockly')
 
 require('./js');
-require('./php');
+/*require('./php');
 require('./dart');
 require('./lua');
-require('./python');
+require('./python');*/
 
 module.exports = Blockly;
