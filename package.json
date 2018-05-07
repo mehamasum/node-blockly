@@ -10,11 +10,9 @@
     "blockly",
     "commonjs"
   ],
-  "dependencies": {
-    "jsdom": "^11.3.0",
-    "xmlshim": "^0.2.1"
-  },
   "devDependencies": {
+    "jsdom": "^11.3.0",
+    "xmlshim": "^0.2.1",
     "chai": "^4.1.2",
     "gulp": "^3.8.11",
     "gulp-insert": "^0.5.0",

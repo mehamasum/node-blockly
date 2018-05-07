@@ -107,15 +107,11 @@ gulp.task('i18n', function() {
 
 gulp.task('build', [
   'blocks',
-  'blocks_browser',
   'blockly',
+  'blocks_browser',
   'blockly_browser',
   'i18n',
   'js',
-  //'php',
-  //'dart',
-  //'python',
-  //'lua',
 ]);
 
 
