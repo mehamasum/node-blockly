@@ -213,7 +213,6 @@ svg.blocklySvg {
 
 .blocklyDropDownDiv .goog-menuitem, input.blocklyHtmlInput, span.blocklyTreeLabel, text.blocklyText {
     cursor: default;
-    fill: #fff;
     font-family: "Helvetica Neue", "Segoe UI", Helvetica, sans-serif;
     font-size: 12pt;
     font-weight: bold;
