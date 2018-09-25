@@ -1,3 +1,4 @@
 [submodule "blockly/blockly"]
 	path = blockly/blockly
 	url = https://github.com/Microsoft/pxt-blockly
+	branch = develop

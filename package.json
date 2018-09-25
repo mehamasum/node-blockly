@@ -1,6 +1,6 @@
 {
-  "name": "node-blockly",
-  "version": "1.0.34",
+  "name": "node-pxt-blockly",
+  "version": "1.0.35",
   "description": "PXT Blockly for Node.js and Browser",
   "main": "index.js",
   "directories": {
@@ -21,8 +21,9 @@
     "mocha": "^4.0.1"
   },
   "scripts": {
-    "fetch": "git submodule init && git submodule update --recursive --remote",
-    "prepublish": "rm -rf lib && mkdir lib && gulp build",
+    "submodule:init": "git submodule init && git submodule update --recursive --remote",
+    "submodule:update": "git submodule update --recursive --remote",
+    "build": "rm -rf lib && mkdir lib && gulp build",
     "test": "mocha test/*_test.js"
   },
   "repository": {
