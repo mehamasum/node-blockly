@@ -1,5 +1,5 @@
 {
-  "name": "node-pxt-blockly",
+  "name": "node-blockly",
   "version": "1.0.35",
   "description": "PXT Blockly for Node.js and Browser",
   "main": "index.js",
